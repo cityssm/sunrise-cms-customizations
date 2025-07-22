@@ -1,4 +1,4 @@
-interface PrintConfig {
+export interface PrintConfig {
     params: Array<"contractId" | "workOrderId">;
     title: string;
 }
@@ -8,4 +8,3 @@ export interface CustomizationConfig {
         screen?: Record<string, PrintConfig>;
     };
 }
-export {};

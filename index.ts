@@ -1,4 +1,4 @@
-interface PrintConfig {
+export interface PrintConfig {
   params: Array<"contractId" | "workOrderId">;
   title: string;
 }
