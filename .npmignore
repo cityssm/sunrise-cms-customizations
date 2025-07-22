@@ -1,0 +1,11 @@
+.git
+.github
+node_modules
+
+.gitignore
+.npmignore
+.prettierignore
+
+eslint.config.*
+prettier.config.*
+tsconfig.json
