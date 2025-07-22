@@ -5,6 +5,5 @@ export interface PrintConfig {
 export interface CustomizationConfig {
     prints?: {
         pdf?: Record<string, PrintConfig>;
-        screen?: Record<string, PrintConfig>;
     };
 }
