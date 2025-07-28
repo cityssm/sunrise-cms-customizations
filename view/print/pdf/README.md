@@ -1,1 +1,3 @@
 # PDF Prints
+
+Accepts `ejs`.

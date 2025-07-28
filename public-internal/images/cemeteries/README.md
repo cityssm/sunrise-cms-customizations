@@ -1,1 +1,3 @@
 # Cemeteries
+
+Accepts `svg`.
