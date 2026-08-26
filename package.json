@@ -1,6 +1,7 @@
 {
   "name": "sunrise-cms-customizations",
   "version": "0.0.2",
+  "private": true,
   "description": "The types and template for Sunrise CMS custom asset packages.",
   "keywords": [
     "sunrise-cms"
@@ -16,13 +17,15 @@
   "license": "MIT",
   "author": "The Corporation of the City of Sault Ste. Marie",
   "type": "module",
-  "exports": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@types/node": "^24.1.0",
-    "eslint-config-cityssm": "^27.0.0",
-    "prettier-config-cityssm": "^1.0.0"
+    "@types/node": "^26.3.0",
+    "eslint-config-cityssm": "^48.1.0",
+    "prettier-config-cityssm": "^2.1.3"
   }
 }
